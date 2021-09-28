@@ -1,0 +1,69 @@
+h1,
+h2,
+p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+h1 {
+    color: $color-text-high;
+
+    padding: 2.1875rem 0rem 1.25rem 0;
+
+    font: {
+        size: 1.375rem;
+        weight: 900;
+    }
+}
+
+
+h2 {
+    color: $color-text-high;
+    text-align: left;
+    margin-left: .5375rem;
+
+    font: {
+        size: 1rem;
+        weight: 900;
+    }
+
+    .price {
+        color: $color-text-light;
+        font-weight: 600;
+    }
+}
+
+p {
+    color: $color-text-light;
+
+    font: {
+        size: .9375rem;
+        weight: 600;
+    }
+}
+
+.cancel a {
+    color: $color-text-light;
+    text-decoration: none;
+    padding-bottom: 3.125rem;
+    font: {
+        size: .875rem;
+        weight: 900;
+    }
+
+    &:hover {
+        color: $color-text-high;
+    }
+}
+
+
+
+
+.col-3 a {
+    font-size: .875rem;
+    font-weight: 900;
+
+    &:hover {
+        color: rgb(118, 108, 241);
+    }
+}
